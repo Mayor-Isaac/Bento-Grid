@@ -1,4 +1,4 @@
-export default function Grid({imgUrl, imgAlt, w, h, row, column,ps, children}) {
+export default function Grid({afterText, imgUrl, imgAlt, w, h, row, column,ps, children}) {
   const imgStyle ={
     width: `${w}px`,
     height:`${h}px`,
@@ -30,6 +30,7 @@ export default function Grid({imgUrl, imgAlt, w, h, row, column,ps, children}) {
         alt={imgAlt}
         style={imgStyle}
       />
+      {afterText && <p>{afterText}</p>}
     </div>
   );
 }

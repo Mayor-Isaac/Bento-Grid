@@ -12,6 +12,7 @@ export default function App() {
     <div className="App">
       <Grid imgUrl="images/illustration-create-post.webp"
         ImgAlt="Create Post Illustration" w="250" h="100" ps={2} bg="#fed7a6" row="1/3"> Create and schedule content <span style={{color:"hsl(256, 67%, 59%)", fontStyle: "italic"}}>quicker.</span></Grid>
+        <Grid></Grid>
       <Grid2 />
       <Grid3 />
       <Grid4 />
