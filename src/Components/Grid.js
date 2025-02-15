@@ -1,4 +1,4 @@
-export default function Grid({afterText, imgUrl, imgAlt, w, h, row, column,ps, children}) {
+export default function Grid({afterText, imgUrl, imgAlt, w, h, row, column,ps, bg,text, children}) {
   const imgStyle ={
     width: `${w}px`,
     height:`${h}px`,
@@ -6,9 +6,10 @@ export default function Grid({afterText, imgUrl, imgAlt, w, h, row, column,ps, c
   }
 
   const gridStyle={
-    backgroundColor:"#fed7a6",
+    backgroundColor:`${bg}`,
     gridRow: `${row ? row : ""}`,
     gridColumn:`${column ? column : ""}`,
+    color: `${text ? text : "black"}`,
     padding: `0 ${ps}rem`,
     display: "flex",
     flexDirection:"column",
