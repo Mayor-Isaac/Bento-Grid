@@ -21,7 +21,7 @@ export default function Grid({afterText,end, side, unique, imgUrl, imgAlt, w, h,
  
   return (
     <div style={gridStyle}>
-      <h1 style={childrenStyle}>
+      <h1>
         {children}
       </h1>
       <img

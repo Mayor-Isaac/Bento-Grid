@@ -6,7 +6,6 @@ This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -20,12 +19,6 @@ Bento Grid is a challenge to enhance your skills in grid CSS for developing awes
 ### Screenshot
 
 ![](./preview.jpg)
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
