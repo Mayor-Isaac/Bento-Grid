@@ -18,9 +18,7 @@ export default function Grid({afterText,end, side, unique, imgUrl, imgAlt, w, h,
     cursor: "pointer",
     gap: "20px",
   }
-  const childrenStyle={
-    // margin: `1rem`
-  }
+ 
   return (
     <div style={gridStyle}>
       <h1 style={childrenStyle}>
